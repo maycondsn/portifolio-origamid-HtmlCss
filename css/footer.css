@@ -1,0 +1,45 @@
+footer {
+    background-color: #000000;
+    
+}
+footer div {
+    padding: 120px 0px 0px 140px;
+}
+
+footer div {
+    display: flex;
+    gap: 270px;
+    align-items: center;
+    position: relative;
+}
+
+footer div p:before {
+    content: "";
+    background: url('../src/detalhe.svg') no-repeat center;
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    top: -60px;
+}
+
+footer p {
+    color: #CCCCCC;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    width: 430px;
+}
+
+footer li {
+    color: #FFFFFF;
+    font-size: 2.25rem;
+    font-weight: bold;
+    line-height: 2.5rem;
+    padding: 15px 0;
+}
+
+.copy {
+    color: #878787;
+    font-size: 1.125rem;
+    line-height: 2rem;
+    padding: 120px 0px 60px 140px;
+}

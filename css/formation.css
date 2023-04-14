@@ -1,0 +1,129 @@
+.Formation {
+    background-color: #141414;
+}
+
+.Formation .Content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 118px;
+    padding: 120px 0px 40px 0px;
+}
+
+.Formation .Content h1 {
+    font-size: 9rem;
+    line-height: 9rem;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.Formation .Content .Description {
+    color: #A3A3A3;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.Formation .Content .Description strong {
+    color: #FFFFFF;
+}
+
+.Formation .Content ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    padding: 60px 0;
+}
+
+.Formation .Content ul li {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-rows: 1fr 5fr 1fr;
+    gap: 10px;
+    position: relative;
+}
+
+.Formation .Content ul li:before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    left: -4px;
+    width: 4px;
+    height: 20px;
+    background-image: linear-gradient(#B6F829, #6CDF0C);
+    margin: 20px 0;
+}
+
+.Formation .Content ul li p {
+    color: #A3A3A3;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.Formation .Content ul li h3 {
+    color: #FFFFFF;
+    font-size: 1.125rem;
+    line-height: 1.5625rem;
+    max-width: 135px;
+}
+
+.Formation .Content ul li .School {
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+}
+
+.Formation .Content article{
+    display: flex;
+    align-content: start;
+    position: relative;
+    margin: 0px 0px 50px;
+}
+
+.Formation .Content article img {
+    align-self: start;
+    padding-right: 12px;
+    content: "";
+    left: -40px;
+    position: absolute;
+    top: 7px;
+}
+
+.Formation .Content article div {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.Formation .Content article div div {
+    display: flex;
+}
+
+.Formation .Content article div h3 {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: #8F8F8F;
+    padding-bottom: 20px;
+}
+
+.Formation .Content article div div h4 {
+    color: #FFFFFF;
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+    font-weight: normal;
+}
+
+.Formation .Content article div div p {
+    color: #8F8F8F;
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+}
+
+.Formation .Content article div .Courses {
+    justify-content: space-between;
+}
+
+.level {
+    padding: 0px 10px;
+}
