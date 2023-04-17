@@ -123,9 +123,14 @@
         padding-left: 0px;
     }
 
+    .List ul {
+        padding: 20px 0;
+    }
+
     .List ul li {
         display: grid;
         grid-template-columns: 1fr;
+        padding: 10px;
     }
 
     .List {
