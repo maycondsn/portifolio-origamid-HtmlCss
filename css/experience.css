@@ -10,9 +10,12 @@
     font-size: 9rem;
     line-height: 9rem;
     color: #E0E0E0;
+    max-width: 4ch;
+    word-break: break-all;
+    text-transform: uppercase;
 }
 
-.Descrition {
+.Description {
     font-size: 1.5rem;
     line-height: 2rem;
     max-width: 40ch;
@@ -62,7 +65,7 @@
     margin-top: 20px;
 }
 
-.infos h1{
+.infos h1 {
     font-size: 1.125rem;
 }
 
@@ -92,3 +95,71 @@
     font-size: 0.875rem;
 }
 
+@media (max-width: 1000px) {
+    .Experience {
+        grid-template-columns: 1fr;
+        margin: 0 50px;
+    }
+
+    .Experience h1 {
+        max-width: max-content;
+        font-size: 2rem;
+        line-height: 3rem;
+        margin: 10px auto;
+        text-transform: capitalize;
+        color: #141414;
+    }
+
+    .Description {
+        margin: 0 auto;
+        max-width: 70ch;
+    }
+}
+
+@media (max-width: 800px) {
+    .Description {
+        font-size: 1.2rem;
+        line-height: 2rem;
+        padding-left: 0px;
+    }
+
+    .List ul li {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .List {
+        padding: 0;
+    }
+
+
+    .List li article {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0px;
+    }
+
+    .techs h3 {
+        font-weight: 500;
+        padding: 15px 0;
+    }
+
+    .techs div {
+        max-width: max-content;
+        margin: 0;
+    }
+
+    .year {
+        width: 100px;
+        margin-right: 0;
+        display: flex;
+        gap: 10px;
+    }
+
+    .year::before {
+        content: "Ano:";
+        top: 0;
+        left: 0;
+        text-align: left;
+    }
+}
