@@ -6,8 +6,6 @@ header {
     justify-content: space-between;
     align-self: center;
     align-items: center;
-    flex-wrap: wrap;
-    
 }
 
 header ul {
@@ -35,9 +33,15 @@ header ul li a:hover {
         gap: 40px;
         padding: 20px;
     }
-    header a {
+
+    header li+li {
+        padding-bottom: 20px;
+    }
+
+    header ul li a {
         background-color: #f5f5f5;
         border-radius: 4px;
     }
 }
+
 
