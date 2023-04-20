@@ -46,6 +46,7 @@
     .Home h1 {
         font-size: 3rem;
         line-height: 1.2;
+        word-break: break-all;
     }
     .Home p {
         font-size: 1.2rem;
@@ -76,5 +77,11 @@
     }
     .Home img {
         display: none;
+    }
+}
+
+@media (max-width: 400px) {
+    .Home h1 {
+        font-size: 2rem;
     }
 }
